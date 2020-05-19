@@ -117,3 +117,4 @@
     - Active Directory uses Domain name System(DNS)
     - There must be a DNS server on the network that Active directory can access
     - A namespace is a logical area on a network that contains directory services and named objects and it has the ability to perform name resolution
+    
