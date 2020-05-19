@@ -65,3 +65,28 @@
 - Within each user profile is info identical to that viewed within the KEY_CREENT_USER root key
     - The profile used when you are signed in is one of the profiles stored under HKEY_USERS
 
+## HKEY_CLASSES_ROOT
+- HKEY_CLASSES_ROOT key
+    - It holds data to associate file extensions with programs
+    - is an alias for HKEY_LOCAL_MACHINE\software\Classes
+- Assosciations exist for executable files,text files, graphic files, clipbard files and audio
+
+## HKEY_CURRENT_CONFIG root key
+- Has information about the current hardware profile
+
+# Active Directory Basics
+
+- What is an active directory?
+    - It is a service that houses information about all network resources and devices such as servers and printers or even user accounts.
+- Directory service
+    - Responsible for providing a central listing of resources and ways to quickly find and access specific resources.
+- ``` Domain Controllers ```
+    - These are servers that have the 'active directory directory sevices' server roles installed
+- ``` Memberservers```
+    - Servers on a network managed by Active directory that do not have active directory installed
+- ``` Domain ```
+    - They are container that holds information about all network resources that are grouped within it 
+    - Every resource is called an object
+
+- Multimaster replication
+    - Each domain controller is equal to every other one in the same active directory
