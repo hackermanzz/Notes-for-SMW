@@ -101,4 +101,19 @@
     ### Caveat
         - Replication between Domain Controllers require the involved parties to be having an identical active directory schema
 - Global catalog
+    - Stores information about every object within a forest
+    - The first DC configured in a forest becomes the global catalog server
+    - Global catalog server
+        - Store a full replica of every object within its own domain in the forest 
+    - The global catalog server enables forest-wide searches of data
+    ### Purpose of global catalog serves the following purposes:
+        - Serving as the central storehouse of key object information in a forest that has multiple domains
+        - Providing lookup and access to all resources in all domains
+        - Providing replication of key active directory elements
+        - Keeping a copy of most used attributes for each object for  quick access
+    ### By default, the first DC in the forst is automatically designated as the global catalog server
+        - You have the option of configuring another DC to be a global catalog server as well as designating multiple DCs as global catalog servers
 - Namespace
+    - Active Directory uses Domain name System(DNS)
+    - There must be a DNS server on the network that Active directory can access
+    - A namespace is a logical area on a network that contains directory services and named objects and it has the ability to perform name resolution
