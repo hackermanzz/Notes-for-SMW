@@ -90,3 +90,15 @@
 
 - Multimaster replication
     - Each domain controller is equal to every other one in the same active directory
+
+## The three general concepts important for understanding active directory
+- Schema
+    - It is a componenet of the Active Directory which contains rules for object creation within an active directory forest. It is a list of definitions about active directory objects and information about those objects that are stored in active Directory
+    ### Example of object classes
+        - User accounts
+        - Computers
+        - Groups
+    ### Caveat
+        - Replication between Domain Controllers require the involved parties to be having an identical active directory schema
+- Global catalog
+- Namespace
