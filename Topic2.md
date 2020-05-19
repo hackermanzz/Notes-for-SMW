@@ -118,3 +118,38 @@
     - There must be a DNS server on the network that Active directory can access
     - A namespace is a logical area on a network that contains directory services and named objects and it has the ability to perform name resolution
     
+# Containers in Active Directory
+- Active Directory has a treelike structure 
+- The hierarchical elements, or containers, of Active Directory includes:
+    - Forests
+    - Trees 
+    - Domains
+    - Organizational Units 
+    - Sites
+
+
+# Interim Recap
+- Active Directory enables
+    - Providing an information repository and lookupservice for users and applications. 
+    - Implementing an authentication and authorization strategy for resource sharing across a network reousrce.
+    - Organizaing objects of a network into a non-physical hierarchical structure
+        - To support a more well-structured management approach for security, performance and resource sharing
+
+
+## active directory structure
+- Active directory logical structure
+    - Forests 
+        - Consists of one or more Active Directory trees that are in a common relationship
+        ### They have the following characteristics:
+            - The trees can use a disjointed namespace
+            - All trees use the same schema
+            - All trees use the same global catalog
+            - Domains enable administrator of commonly associated objects, such as accounts and other resources, within a forest
+            - Two-way transitive trusts are automatically confugred between domains within single forest
+    - Trees 
+    - Domains 
+    - Organizational unit 
+    - Site Objects
+- Active Directory physical structure
+    - Domain Controller
+    - Sites ( actual physical network )
