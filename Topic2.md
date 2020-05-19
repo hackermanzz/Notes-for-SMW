@@ -114,7 +114,6 @@
     ### By default, the first DC in the forst is automatically designated as the global catalog server
         - You have the option of configuring another DC to be a global catalog server as well as designating multiple DCs as global catalog servers
 - Namespace
-    - Active Directory uses Domain name System(DNS)
     - There must be a DNS server on the network that Active directory can access
     - A namespace is a logical area on a network that contains directory services and named objects and it has the ability to perform name resolution
     
@@ -146,7 +145,12 @@
             - All trees use the same global catalog
             - Domains enable administrator of commonly associated objects, such as accounts and other resources, within a forest
             - Two-way transitive trusts are automatically confugred between domains within single forest
+            - A forest provides a means to relate trees that use a contigous namespace in domains within each tree.
+            - The advantage of joining trees into one forest is that all domains will share the same schema and global catalog
     - Trees 
+        - Contains one or more domains that are in a common relationship
+        - Domains are represented in a contiguous namespace and can be in a hierarchy
+        - Two-way trust relationships exist between parent
     - Domains 
     - Organizational unit 
     - Site Objects
