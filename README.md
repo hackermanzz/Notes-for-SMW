@@ -111,7 +111,7 @@
  ## Purpose of server manager
 - It consolidates administrative functions to make a server easier to manage
 
-### Two common toles for a windows server 2016
+### Two common roles for a windows server 2016
 - File and storage services role
     - Focuses on sharing files from the server or using the server to coordinate and simplify sharing through Distributed File system( DFS )
 - Print and Document Services role
