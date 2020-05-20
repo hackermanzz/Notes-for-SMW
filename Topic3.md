@@ -197,10 +197,40 @@ P = Permissions
 - Network discovery can be turned on
     - Network discovery is the ability to view othernetwork computers and devices
 
-### Confuring Folder sharing through the folder properties
+### Configuring Folder sharing through the folder properties
 - Share permissions for folder or files
     - Can be set by configuring sharing using the file sharing windows and a folder's or file's sharing tab in its properties dialog box
 - When you configure sharing using the advanced sharing options
     - The share permissions also include Full control and change
     - Configured using advanced sharing button on the sharing tab of properties
-    
+- Share Permissions
+    - ``` Read ``` ( for shared user )
+    - ``` Write ```( for shared user )
+    - ``` Change or Contribute ```
+    - ``` Custom ``` 
+    - ``` Full Control ``` ( only in advanced )
+    - ``` Owner ```
+
+## Configuring sharing through server manager
+- Sever message block protocol
+    - Enable an OS to offer shared files on a network
+- Network File system protocol
+    - Used for file and folder sharing on UNIX and linux systems
+
+## publishing a shared folder in AD
+- To publish an object means to make it available and easier to find for users that view the active directory.
+
+
+# Troubleshooting a secruity conflict
+- When a file or folder is created, copid or moved the file permissions can be affected in the following ways:
+
+</br>
+</br>
+</br>
+
+|Situation   |Permission   |
+|:-:|:-:|
+|Newly created file   |inherit permissions set in the destination folder   |
+|Copied on the same volume   |inherit permissions set in the destination folder   | 
+|Move on the same volume   |Retains permissions of the original folder   |
+|Move or copied on a different volume   |inherits permissions set in destination folder   |
