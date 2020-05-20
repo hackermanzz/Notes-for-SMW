@@ -165,3 +165,32 @@
 - Active Directory physical structure
     - Domain Controller
     - Sites ( actual physical network )
+        - A site is a TCP/IP based concept within the active directory that is linked to IP subnets
+        - It reflecs one or more interconnected subnets
+        - It reflects the physical aspect of the network
+        - Is used for DC replication
+        - Is used to enable a client to access the DC that is physically closest
+        - Is composed of only two types of objects,servers and congfiguration objects
+        ### Reasons to define a site
+            - It connects to the network server more efficiently
+            - DC replcation is more efficient when AD knows where the DC's locations are
+
+
+# Active Directory Guidelines
+- Keep AD as simple as possible (plan first)
+- Implement least number of domains (1 is ideal)
+- Use OUs to reflect organization's structure
+- Create only necessary OUs
+- Dont build AD with more than 10 levels of OUs
+- Use domains as partitions in forests
+- Implement multiple trees and forests only as necessary
+- Use sites in situations where there are multiple IP subnets and multiple geographic locations
+
+
+# Using the security configuration wizard
+- Through the SCW, you can:
+    - Disable unnecessary services and software
+    - Close network communication ports and resources that aren't in use
+    - Examine Share files and folders to manage networks access via protocols
+    - Confiure audit policy
+- The security configuration database is a group of XML files that establish a security policy
