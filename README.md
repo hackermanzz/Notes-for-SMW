@@ -479,7 +479,7 @@ P = Permissions
     - EFS uses both symmetric and asymmetric encryption technique
     - When you move an encrypted file to another folder on the same computer, that file remains encrypted, even if you rename it
 ## Best practices for using EFS:
-- Move gilesfor encryption into specifically designated folders flagged for encryption
+- Move files for encryption into specifically designated folders flagged for encryption
 - It is safer for an application to work on a file is an encrypted folder rather than to work on a file that is individually encrypted
 - Workstation users and server administrators should consider encrypting the My documents or Documents folders on their systems
 - Users and server administrators should frequently exports certificates and private keys to portable media and store the media in a secure place
@@ -492,7 +492,6 @@ P = Permissions
 
 - Auditing
     - Enables you to track activity on a folder or file
-
 - WIth permissions and auditing set ip, you might want to verify the ownership of a folder
 - Folders are first owned by the account that creates them
 - Folder owners have the ability to chance permissions for the folders they create
@@ -506,7 +505,7 @@ P = Permissions
 - First step for sharing a folder or file over the network
     - Is to make sure folder and printer sharing is turned on
 - Network discovery can be turned on
-    - Network discovery is the ability to view othernetwork computers and devices
+    - Network discovery is the ability to view other network computers and devices
 
 ### Configuring Folder sharing through the folder properties
 - Share permissions for folder or files
