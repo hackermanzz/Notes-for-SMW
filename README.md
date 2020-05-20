@@ -56,10 +56,10 @@
 
 
 
-- The Dimensions on which microsoft objective of a trustworthy computin relies on the Goals:
+- The Dimensions on which microsoft objective of a trustworthy computing relies on the Goals:
     - Security
     - Privacy
-    - Buisness Integrity
+    - Business Integrity
 - Means:
     - Security by design, by default and by deployment
     - Privacy/fair information principles
