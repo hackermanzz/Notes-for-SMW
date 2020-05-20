@@ -240,7 +240,7 @@ P = Permissions
 ## Important features in windows server 2016 AD
 - Five importants or new features deserve particular mention:
     - restart capability
-    - <span style="background:rgba(252,248,118,0.3)">Read-only Domain Controller</span>
+    - ```Read-only Domain Controller```
     - Cloning domain controllers
-    - <span style="background:rgba(252,248,118,0.3)">ReadFine-grained password policy enhancements</span>
-    - <span style="background:rgba(252,248,118,0.3)">ReadProtected users global group</span>
+    - ```Fine-grained password policy enhancements```
+    - ```Protected users global group```
