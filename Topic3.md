@@ -234,3 +234,13 @@ P = Permissions
 |Copied on the same volume   |inherit permissions set in the destination folder   | 
 |Move on the same volume   |Retains permissions of the original folder   |
 |Move or copied on a different volume   |inherits permissions set in destination folder   |
+
+
+
+## Important features in windows server 2016 AD
+- Five importants or new features deserve particular mention:
+    - restart capability
+    - <span style="background:rgba(252,248,118,0.3)">Read-only Domain Controller</span>
+    - Cloning domain controllers
+    - <span style="background:rgba(252,248,118,0.3)">ReadFine-grained password policy enhancements</span>
+    - <span style="background:rgba(252,248,118,0.3)">ReadProtected users global group</span>
