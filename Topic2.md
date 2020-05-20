@@ -150,9 +150,17 @@
     - Trees 
         - Contains one or more domains that are in a common relationship
         - Domains are represented in a contiguous namespace and can be in a hierarchy
-        - Two-way trust relationships exist between parent
+        - Two-way trust relationships exist between parent domaains and child domains
+        - All domains in a single tree use the same schema for all types of common objects
+        - The domains within a tree are in what is called a kerberos transitive trust relationship
+            - Which is basically a mutual trust between parent domains and child domains
+        - Domain functional levels refers to the windows server operating systems on domain controllers and the domain-specific functions they support
     - Domains 
+        - All domains use the same global catalog
+        - A domain is a grouping of objects that typically exists as a primary container within active directory
     - Organizational unit 
+        - Offers a way to achieve more flexibility in managing resources than through domain administration alone
+        - An OU is a grouping of 
     - Site Objects
 - Active Directory physical structure
     - Domain Controller
