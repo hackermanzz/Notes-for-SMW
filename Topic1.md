@@ -6,7 +6,7 @@
     - Will have to write secure operating systems and application but it should not compromise on productivity
     - Companies will have to train users to always keep security in mind
 
-## Different areas of security that microsoft has decided to make signigicant investment on:
+## Different areas of security that microsoft has decided to make significant investment on:
 - Isolation and resiliency
     - The idea is to separate and split a computer system into smaller pieces and make sure that each piece is separated from the others so that if in the case that one of the system is compromised or is malfunctioning the other surrounding systems may not be affected.
     - Inclusion of better file attachment handling in outlook express and windows messenger instant messaging 
